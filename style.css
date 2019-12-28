@@ -1,0 +1,97 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(new.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    width: 120px;
+    margin-top: 18px;
+}
+.header{
+    height: 10%;
+}
+.header-btn
+{
+    text-decoration: none!important;
+    border-radius: 30px;
+    padding: 7px 20px;
+    float:right;
+    margin-top: 15px;
+    color: #fff !important;
+    background: #107afd;
+    font-weight: 600;
+    margin-right: 10px;
+    opacity: 0.5;
+}
+.header-btn:hover{
+    background: #008000;
+    opacity: 1.0;
+    font-size: 20px;
+}
+.movie-details{
+    margin: 3% 0;
+}
+.left-box{
+    margin:15px 0px;
+    padding: 20px;
+}
+.casting img{
+    height:45px;
+    width:45px;
+    margin-right: 10px;
+    cursor:pointer;
+}
+.left-box a {
+    border:1px solid white;
+     text-decoration: none!important;
+    border-radius: 30px;
+    padding: 7px 10px;
+    margin-top: 25px;
+    color: #fff !important;
+    background: #107afd;
+    font-weight: 600;
+    margin-right: 10px;
+    display: inline-block;
+    opacity: 0.5;
+}
+.left-box a:hover{
+    background: #008000;
+    opacity: 1.0;
+    font-size: 15px;
+}
+.download-btn{
+    border:1px solid white!important;
+    background: #1E90FF;
+    background: transparent;
+}
+.left-box a:hover{
+    background: #006400;
+}
+.download-btn:hover{
+    background: #006400;
+}
+.fa{
+    margin: 0px 5px;
+}
+.movie-img{
+    float: right;
+    height:300px;
+    box-shadow: -4px 4px 5px 0px #000;
+}
+.container series h3 {
+        color:white;
+    }
+.container series row img
+{
+           width: 100%;
+           margin-top: 5px;
+           box-shadow: -4px 4px 5px 0 #000;
+           cursor:pointer;
+           transition: 1s;
+           margin-left: 5px;
+         }
